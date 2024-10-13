@@ -15,6 +15,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <script defer src="assets/js/script.js"></script>    
+
+    <link rel="stylesheet" href="assets/css/style.css">    
+
 </head>
 
 <body>
@@ -33,6 +37,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#presentacion">Presentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mis-trabajos">Mis trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
 
 
@@ -83,7 +93,7 @@
         <!--FIN SECCIÓN PRESENTACION-->
 
         <!--INICIO SECCIÓN MIS TRABAJOS-->
-
+        
         <section id="mis-trabajos" class="py-5">
             <div class="container">
                 <div class="mis-trabajos-titulo">
@@ -93,7 +103,7 @@
                     <div class="row g-3 justify-content-evenly">
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/685/600/400" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the bulk of the card's content.</p>
@@ -102,7 +112,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/684/600/400" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the bulk of the card's content.</p>
@@ -111,7 +121,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card" style="width: 100%">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/id/687/600/400" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the bulk of the card's content.</p>
@@ -126,9 +136,47 @@
 
         <!--FIN SECCIÓN MIS TRABAJOS-->
 
+        <!--INICIO SECCIÓN CONTACTO-->
+
+        <section id="contacto" class="py-5 bg-secondary-subtle">
+            <div class="container">
+                <div class="contacto-titulo">
+                    <h2 class="text-center py-3">Ponte en contacto conmigo</h2>
+                </div>
+                <div class="contacto-body py-5">
+                    <form class="w-50 mx-auto" id="form-contacto">
+                        <div>
+                            <label for="contacto-nombre" class="form-label">Ingresa tu nombre: </label>
+                            <input type="text" required class="form-control" id="contacto-nombre" name="nombre">
+                        </div>
+                        <div>
+                            <label for="contacto-asunto" class="form-label">Asunto: </label>
+                            <input type="text" required class="form-control" id="contacto-asunto" name="asunto">
+                        </div>
+                        <div>
+                            <label for="contacto-email" class="form-label">Email: </label>
+                            <input type="email" required class="form-control" id="contacto-email" name="email">
+                        </div>
+                        <div>
+                            <label for="contacto-mensaje" class="form-label">Mensaje: </label>
+                            <textarea name="mensaje" id="contacto-mensaje" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <div class="py-3">
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--FIN SECCIÓN CONTACTO-->
+
     </main>
     <!--FIN MAIN-->
 
 </body>
 
 </html>
+
+<!--2:05:48-->
