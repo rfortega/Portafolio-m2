@@ -1,4 +1,23 @@
-#mis-trabajos .mis-trabajos-body img{
-    width: 100%;
-    aspect-ratio: 3/2;
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    transform: translateY(-5%);
+    transition: all 400ms ease;
+
+}
+        
+#mis-trabajos .mis-trabajos-body img {
+        width: 100%;
+        aspect-ratio: 3/2;
+    }
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(13, 110, 253);
+}
+
+#boton-bootstrap{
+    background-color: blueviolet;
+    color: white;
+    border: none;
 }
