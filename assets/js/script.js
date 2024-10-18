@@ -18,4 +18,9 @@ formulario_contacto.addEventListener("submit", (event) => {
     document.getElementById("mensaje-modal").innerText = ("Gracias " + nombre + " por contactarte conmigo, me pondre en contacto a tu email: " + email + "");
     document.getElementById("form-contacto").reset();
 
+    // Limpiar el mensaje del modal al cerrarlo
+    document.getElementById("modal-contacto").addEventListener('hidden.bs.modal', function () {
+        document.getElementById("mensaje-modal").innerText = "¡Oops!, faltan datos por ingresar";
+    });
+
 }); 
